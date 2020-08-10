@@ -128,7 +128,7 @@ class TheGame(ItemsFallingFromSky,ScoreBoard):
  
        
         self.canvas = Canvas(self.parent, width=800, height=600)
-        self.canvas.config(background="#96DEDA")
+        self.canvas.config(background="#96DEDA") #bgcolor
         self.canvas.bind("<Key>", self.keyMoving)      
         self.canvas.focus_set()
         self.canvas.grid(row=1, column=1, padx=25, pady=25, sticky=W+N)
