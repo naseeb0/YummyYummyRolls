@@ -73,7 +73,7 @@ class ItemsFallingFromSky():
         self.isgood = randint(0, 1)            
         
         self.goodItems = ["roll1.png","roll2.png","roll3.png"] # good items
-        self.badItems = ["veg1.png","veg2.png","veg3.png"]
+        self.badItems = ["veg1.png","veg2.png","veg3.png"] #bad Items
         
         
         if self.isgood:   
@@ -134,7 +134,7 @@ class TheGame(ItemsFallingFromSky,ScoreBoard):
         self.canvas.grid(row=1, column=1, padx=25, pady=25, sticky=W+N)
 
         
-        self.playerPhoto = tkinter.PhotoImage(file = "images/{}" .format( "1.png" ) )
+        self.playerPhoto = tkinter.PhotoImage(file = "images/{}" .format( "1.png" ) ) 
         self.playerChar = self.canvas.create_image( (475, 560) , image=self.playerPhoto , tag="player" )
 
         
