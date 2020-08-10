@@ -72,7 +72,7 @@ class ItemsFallingFromSky():
         self.xPosition = randint(50, 750)       
         self.isgood = randint(0, 1)            
         
-        self.goodItems = ["roll1.png","roll2.png","roll3.png"]
+        self.goodItems = ["roll1.png","roll2.png","roll3.png"] # good items
         self.badItems = ["veg1.png","veg2.png","veg3.png"]
         
         
