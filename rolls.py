@@ -124,8 +124,8 @@ class TheGame(ItemsFallingFromSky,ScoreBoard):
         
         
         self.parent.geometry("1024x650")
-        self.parent.title("Yummy Yummy Rolls")
-
+        self.parent.title("Yummy Yummy Rolls") #title_naseeb_game_hackathon
+ 
        
         self.canvas = Canvas(self.parent, width=800, height=600)
         self.canvas.config(background="#96DEDA")
