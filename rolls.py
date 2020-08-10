@@ -134,7 +134,7 @@ class TheGame(ItemsFallingFromSky,ScoreBoard):
         self.canvas.grid(row=1, column=1, padx=25, pady=25, sticky=W+N)
 
         
-        self.playerPhoto = tkinter.PhotoImage(file = "images/{}" .format( "1.png" ) ) 
+        self.playerPhoto = tkinter.PhotoImage(file = "images/{}" .format( "1.png" ) )  #player image
         self.playerChar = self.canvas.create_image( (475, 560) , image=self.playerPhoto , tag="player" )
 
         
