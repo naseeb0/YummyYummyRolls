@@ -55,7 +55,7 @@ class ScoreBoard():
             
     def updateBoard(self, livesStatus, scoreStatus):
         self.lives += livesStatus; self.score += scoreStatus
-        if self.lives < 0: self.gameOver()        
+        if self.lives < 0: self.gameOver() # when less than zero bhanesi total 6 ota lives       
         self.livesVar.set(self.lives); self.scoreVar.set(self.score)
 
 
