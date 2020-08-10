@@ -159,7 +159,7 @@ class TheGame(ItemsFallingFromSky,ScoreBoard):
         
 
         
-if __name__ == "__main__":
+if __name__ == "__main__":   #necessary to run standalone
     root = Tk()
     TheGame(root)
     root.mainloop()
