@@ -1,3 +1,5 @@
+# importing library/packages
+
 from tkinter import *
 from random import *
 import tkinter.messagebox
@@ -48,7 +50,7 @@ class ScoreBoard():
     def gameOver(self):
         self.saveScore()
         tkinter.messagebox.showinfo("Game Over?", "Aww. All chances gone")         #after game reset
-        if tkinter.messagebox.askyesno("Are You still hungry ?", "Play Again ?"):
+        if tkinter.messagebox.askyesno("Are You still hungry ?", "Play Again ?"):    
             self.reset()
         else:
             exit()
