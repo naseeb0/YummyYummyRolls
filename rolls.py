@@ -6,7 +6,7 @@ import tkinter.messagebox
 
 
 
-class ScoreBoard():
+class ScoreBoard(): #initialize scoreboard class
     
     def __init__(self,parent):
         self.parent = parent       
