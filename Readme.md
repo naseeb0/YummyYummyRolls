@@ -1,0 +1,1 @@
+This app is made completely on tkinter. You can see the comments on the app to know about whats going on the app. Basically, the app can run standalone with the Keys but it was designed to work with Circuit Python
